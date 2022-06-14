@@ -1,4 +1,4 @@
-package java.day1;
+package javal.day1;
 
 public class Ex1 {
 
