@@ -1,4 +1,4 @@
-package javal.day2;
+package day2;
 
 public class Ex2 {
 
@@ -69,7 +69,7 @@ public class Ex2 {
 		%g: 실수(float,double)를 %f(소수)와 %e(지수) 중 짧게 표현할 수 있는 형태로 출력
 			ex: 10.02, 2.33e+005. 소수점 2째자리까지 출력시 %.3g
 		%c: 1개의 문자(char)만 출력 ex: char a = '가';
-		%s: 문자열(char,string) 출력 ex: Spring b ="가나다";
+		%s: 문자열(char,string) 출력 ex: String b ="가나다";
 		%n: printf에서만 쓰는 enter. but \n을 더 많이 사용
 		*/
 		System.out.printf("%d+%d=%d\n",num1,num2,num3);//200+100=300

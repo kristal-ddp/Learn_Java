@@ -1,4 +1,4 @@
-package javal.day2;//원하는만큼 사용자에게 질문하는 프로그램
+package day2;//원하는만큼 사용자에게 질문하는 프로그램
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package javal.day2;
+package day2;
 
 /*
 - 접근지정자: 외부에서 class와 interface에 접근할 수 있는 범위를 지정

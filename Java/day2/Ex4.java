@@ -1,4 +1,4 @@
-package javal.day2;//컴퓨터와 대화하는 프로그램 만들기
+package day2;//컴퓨터와 대화하는 프로그램 만들기
 
 /*
 import: 다른 package의 class나 자주 사용하지 않는 것들을 사용할 때 package 이름.class 이름 명시해야함.
@@ -36,12 +36,12 @@ public class Ex4 {
 		print: Console 입력시 바로 옆에 위치
 		println: Console 입력시 한칸 아래에 위치
 		 */
-		System.out.print("반지름? ");//123(ASCII 49,50,51)
+		System.out.print("반지름? ");//123 (ASCII 49,50,51)
 		//System.out.println("반지름? ");
 		
 		
 		/*
-		readLine: method. 저장되는 변수는 항상 String(문자)
+		readLine: method. 저장되는 변수[반환값]는 항상 String(문자)
 		r = br.readLine();//오류: r은 int로 선언되어 정수인데, readLine은 값을 문자로 읽음
 		
 		parse: 변환하라는 뜻
