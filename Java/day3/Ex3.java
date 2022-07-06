@@ -86,6 +86,7 @@ public class Ex3 {
 		ch = '\r';//enter
 		System.out.println(Integer.toString(ch));//13
 		
+		int aa = ch;
 		ch = 'a';//a: ASCII 97
 		System.out.println(ch);//a
 		System.out.println(Integer.toString(ch));//97		

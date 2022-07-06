@@ -20,10 +20,11 @@ public class Ex4 {
 		BufferedReader: 사용자에게 값을 입력받을 때 사용. java가 이미 만들어 놓은 것을 가져와서 쓰는 것
 		Stream: 한 곳에서 다른 곳으로의 데이터 흐름
 				단방향이므로 입력과 출력 동시 발생할 수X. InputStream, OutputStream으로 나뉜다
-		System.in: 입력받은 데이터를 10진수로 변환하여 int형 변수에 저장.
+		System.in: 키보드로 입력받은 데이터를 10진수로 변환하여 int형 변수에 저장.
 				   1byte 단위(ASCII 값. A,a,1,#)로만 입력받음. 2byte(한글 ex: 가)는 제대로 인식X
 		InputStreamReader: System.in으로 받은 문자를 2byte로 변경(입력 데이터를 char형태로 변환)
-		BufferedReader: 2byte로 변경된 문자를 저장(String인 문자열로 저장)
+		new BufferedReader: BufferedReader로 객체생성해서 br에 저장
+		BufferedReader br: 2byte로 변경된 문자를 br에 저장(String인 문자열로 저장)
 		BufferedReader br ≒ int r. 표현 방식이 비슷함
 		*/
 		BufferedReader br = new BufferedReader(
