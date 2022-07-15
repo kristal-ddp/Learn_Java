@@ -68,20 +68,29 @@ public class Ex1 {
 		}while(k<9);
 		
 		
-//		4. continue: for,while,do-while문 내에서 건너뛰고 반복
+//		4. continue: for,while,do-while문 내에서 continue 아래부분은 건너뛰고 반복됨
 //		반복문{
-//			코드1
-//			continue;
-//			코드2
+//		코드1
+//		continue;
+//		코드2
 //		}
 //		→코드1만 반복됨
+
 //		5. break: for,while,do-while,switch문 종료
 //		반복문{
-//			코드1
-//			break;
-//			코드2
+//		코드1
+//		break;
+//		코드2
 //		}
-//		→코드1 1번만 실행되고 종료
+//		→코드1 1번만 실행되고 반복문 종료
+
+//		6. return: for,while,do-while문 종료 및 함수 자체 종료
+//		반복문{
+//		코드1
+//		return;
+//		코드2
+//		}
+//		→코드1 1번만 실행되고 함수 자체 종료
 
 	}
 
