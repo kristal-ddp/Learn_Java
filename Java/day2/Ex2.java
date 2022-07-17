@@ -6,7 +6,7 @@ public class Ex2 {
 		
 		/*
 		※1. Data type 자료형(8개): 문자,실수 등을 구분지음		
-		*char: 문자형. 1개의 문자만 저장 가능 ex: char a = '가';. 2byte
+		*char: 문자형,정수형. 1개의 문자만 저장 가능 ex: char a = '가';. 2byte
 		*boolean: 논리형(true/false)
 		byte: 정수형. 1byte
 		short: 정수형. 2byte

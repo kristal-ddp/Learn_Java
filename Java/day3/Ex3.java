@@ -72,7 +72,7 @@ public class Ex3 {
 		A~Z: 65~90,	a~z: 97~122. 대문자와 소문자의 차이: ±32 ex: a-32=A
 		
 		Character: 문자 데이터를 정수 형태인 ASCII값으로 변환하여 처리한다.
-		ex: ch = 'a';을 선언하면, 문자 a를 가지는게 아니라 내부적으로 변환된 ASCII값 97을 가지고 있다.
+		ex: ch = 'a';을 선언하면, 문자 a를 저장하는게 아니라 문자 a에 해당하는 정수값[내부적으로 변환된 ASCII값] 97이 저장된다
 		만약 그대로 출력하면 문자 a가 출력된다.
 		
 		Integer.toString: Integer의 값을 나타내는 String 객체를 돌려주는데, Character 라인의 값으로 돌려준다
