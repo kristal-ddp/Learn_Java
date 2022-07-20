@@ -7,6 +7,7 @@ public class Ex2 {
 
 	public static void main(String[] args) throws IOException {
 		
+		//Scanner 이용
 		//1부터 입력받은 수까지의 합계 구하고, 계속 실행할 것인지 물어보는 프로그램
 		//조건: 1~5000사이의 값 입력
 		int number;
