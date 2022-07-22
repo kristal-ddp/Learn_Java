@@ -135,6 +135,32 @@ public class Ex6 {
 		}
 		System.out.println();
 		
+		//»ï°¢Çü
+		System.out.println("»ï°¢Çü");
+		for(i=1;i<=5;i++) {
+			for(j=1;j<=5-i;j++) {//4 3 2 1 0
+				System.out.print(" ");
+			}
+			for(j=1;j<=2*i-1;j++) {//1 3 5 7 9
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		System.out.println();
+		
+		//¿ª»ï°¢Çü
+		System.out.println("¿ª»ï°¢Çü");
+		for(i=5;i>=1;i--) {
+			for(j=1;j<=5-i;j++) {//0 1 2 3 4
+				System.out.print(" ");
+			}
+			for(j=1;j<=2*i-1;j++) {//9 7 5 3 1
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
+
 	}
 
 }
