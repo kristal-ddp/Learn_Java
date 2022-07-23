@@ -10,16 +10,39 @@ public class Practice3 {
 		
 		*/
 		
-		int sum=0;
+		int i,sum=0;
 		
-		for(int i=1;i<=10;i++) {
+		/*for(i=1;i<=10;i++) {//规过1
 			
 			if(i%2==0) {
 				sum -= i;
 			}else if(i%2==1) {
 				sum += i;
 			}
-		}
+		}*/
+		
+		i=0;
+		/*while(i<10) {//规过2
+			
+			i++;
+			if(i%2==0) {
+				sum -= i;
+			}else if(i%2==1) {
+				sum += i;
+			}
+			
+		}*/
+		
+		do {//规过3
+			
+			i++;
+			if(i%2==0) {
+				sum -= i;
+			}else if(i%2==1) {
+				sum += i;
+			}
+			
+		}while(i<10);
 		
 		System.out.println(sum);
 		

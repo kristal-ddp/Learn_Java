@@ -11,30 +11,47 @@ public class Practice2 {
 		전체의 합: 5050
 		*/
 		
-		int i,sum=0;
+		int i,sum1=0,sum2=0,sum3=0;
 		
-		for(i=1;i<=100;i++) {
-			if(i%2==1) {
-				sum += i;
-			}
-		}
-		System.out.printf("1부터 100까지의 숫자 중 홀수의 합: %d\n",sum);
-		
-		sum=0;
-		
-		for(i=1;i<=100;i++) {
+		/*for(i=1;i<=100;i++) {//방법1
+			
 			if(i%2==0) {
-				sum += i;
+				sum1 += i;
+			}else if(i%2==1) {
+				sum2 += i;
 			}
-		}
-		System.out.printf("1부터 100까지의 숫자 중 짝수의 합: %d\n",sum);
+			sum3 += i;
+			
+		}*/
 		
-		sum=0;
+		i=0;
+		/*while(i<100) {//방법2
+			
+			i++;
+			if(i%2==0) {
+				sum1 += i;
+			}else if(i%2==1) {
+				sum2 += i;
+			}
+			sum3 += i;
+			
+		}*/
 		
-		for(i=1;i<=100;i++) {
-			sum += i;
-		}
-		System.out.printf("1부터 100까지의 숫자 중 전체의 합: %d",sum);
+		do {//방법3
+			
+			i++;
+			if(i%2==0) {
+				sum1 += i;
+			}else if(i%2==1) {
+				sum2 += i;
+			}
+			sum3 += i;
+			
+		}while(i<100);
+
+		System.out.printf("1부터 100까지의 숫자 중 짝수의 합: %d\n",sum1);
+		System.out.printf("1부터 100까지의 숫자 중 홀수의 합: %d\n",sum2);
+		System.out.printf("1부터 100까지의 숫자 중 전체의 합: %d",sum3);		
 		
 	}
 
